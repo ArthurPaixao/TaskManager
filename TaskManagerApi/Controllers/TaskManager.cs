@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using TaskManager.Application.UseCases.GetAll;
 using TaskManager.Application.UseCases.GetById;
 using TaskManager.Application.UseCases.Register;

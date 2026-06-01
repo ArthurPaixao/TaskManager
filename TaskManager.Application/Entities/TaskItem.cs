@@ -4,11 +4,11 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        private string Description { get; set; }
-        private int Priority { get; set; }
-        private DateTime DataLimite { get; set; }
-        private int Status { get; set; }    
-        private int UserId { get; set; }
-        private User User { get; set; }
+        public string Description { get; set; }
+        public int Priority { get; set; }
+        public DateTime DataLimite { get; set; }
+        public int Status { get; set; }    
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }
